@@ -1,0 +1,97 @@
+/* Write your CSS code here */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .website-logo {
+    width: 80;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    margin-top: 50px;
+  }
+}
+.website-logo {
+  width: 350;
+  height: 350px;
+  margin-right: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 20px;
+  font-family: 'Roboto';
+}
+.nxtTrenz-image {
+  width: 300px;
+  height: 70px;
+  margin-bottom: 100px;
+}
+.input-name-field {
+  width: 90%;
+  height: 22px;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+  background-color: #d7dfe9;
+  border: none;
+}
+.input-pass-field {
+  width: 90%;
+  height: 22px;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+  background-color: #d7dfe9;
+  border: none;
+}
+.labelEl {
+  color: #1e293b;
+  font-weight: bold;
+}
+.labelEl {
+  color: #1e293b;
+  font-weight: bold;
+}
+.btn {
+  background-color: #0b69ff;
+  border: none;
+  height: 40px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 18px;
+  width: 100%;
+}
